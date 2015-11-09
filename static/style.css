@@ -1,0 +1,9 @@
+textarea {
+    min-height: 300px;
+    font-family: monospace;
+}
+
+.form-horizontal .control-label {
+    font-size: 16px;
+    text-align: left;
+}

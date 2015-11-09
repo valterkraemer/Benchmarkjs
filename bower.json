@@ -1,0 +1,23 @@
+{
+  "name": "Benchmarkjs",
+  "description": "Benchmark your Javascript easily",
+  "main": "index.js",
+  "authors": [
+    "Valter Kraemer <valter.kraemer@aalto.fi>"
+  ],
+  "license": "None",
+  "homepage": "none",
+  "moduleType": [],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "static/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "benchmark": "~1.0.0"
+  }
+}
