@@ -4,7 +4,8 @@
   "description": "Benchmark your Javascript easily",
   "main": "index.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js",
+    "postinstall": "bower install"
   },
   "author": "",
   "engines": {
@@ -15,8 +16,5 @@
     "ejs": "^2.3.4",
     "express": "^4.13.3",
     "bower": "1.6.x"
-  },
-  "scripts": {
-    "postinstall": "./node_modules/bower/bin/bower install"
   }
 }
